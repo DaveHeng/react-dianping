@@ -1,0 +1,50 @@
+.know-box {
+  width: 100%;
+  background-color: #fff;
+  .purchase-notes {
+    padding: 0 0 12px 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #333;
+    dt {
+      height: 40px;
+      line-height: 42px;
+      margin-left: 0;
+      font-weight: 400;
+      margin-bottom: 10px;
+      font-size: 14px;
+      border-bottom: 1px solid #ddd;
+      box-sizing: border-box;
+    }
+    .notes-item {
+      padding: 5px 0 5px 0;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 5px;
+      &:nth-last-child(1) {
+        border-bottom: none;
+      }
+      h5 {
+        line-height: 28px;
+        font-size: 13px;
+        display: block;
+        color: #999;
+      }
+      p {
+        line-height: 20px;
+        width: 90%;
+        margin: 7px 0;
+        position: relative;
+        color: #666;
+        &::before {
+          content: "• ";
+          color: #999;
+          position: absolute;
+          left: -12px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}

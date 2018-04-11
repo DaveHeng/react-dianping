@@ -1,0 +1,92 @@
+.guessLike {
+  background-color: #fff;
+  h2 {
+    height: 30px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #777;
+  }
+  li {
+    margin-left: 15px;
+    padding: 11px 10px 11px 0;
+    box-sizing: border-box;
+    display: flex;
+    a {
+      width: 100%;
+      display: flex;
+      .l-item {
+        padding-right: 10px;
+        position: relative;
+        img {
+          width: 90px;
+          height: 90px;
+        }
+        .tag {
+          font-size: 12px;
+          transform: scale(0.98);
+          padding: 3px 7px;
+          background-color: #000;
+          color: #e5bf86;
+          position: absolute;
+          font-weight: 700;
+          left: 0;
+        }
+      }
+      .r-item {
+        min-width: 0;
+        flex: 1;
+        font-size: 14px;
+        .name {
+          max-width: 245px;
+          font-size: 17px;
+          font-weight: 700;
+          color: #111;
+          padding-right: 8px;
+          box-sizing: border-box;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .desc {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 13px;
+          color: #777;
+          padding-top: 9px;
+          padding-bottom: 13px;
+          box-sizing: border-box;
+        }
+        .item-price {
+          display: flex;
+          justify-content: space-between;
+          height: 22px;
+          line-height: 22px;
+          padding-right: 4px;
+          .price {
+            color: #f63;
+            font-size: 21px;
+            text-decoration: none;
+            font-weight: 700;
+          }
+          .exPrice {
+            font-size: 13px;
+            color: #777;
+            text-decoration: line-through;
+            vertical-align: 1px;
+          }
+          .cell {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: right;
+            font-size: 13px;
+            color: #777;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

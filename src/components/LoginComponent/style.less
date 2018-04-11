@@ -1,0 +1,74 @@
+html,
+body,
+#app {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .window {
+    padding: 5px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    .phone,
+    .verification {
+      font-size: 18px;
+      position: relative;
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      height: 30px;
+      width: 250px;
+      border: 2px solid #f63;
+      line-height: 30px;
+      border-radius: 50px;
+      overflow: hidden;
+      input {
+        flex: 1;
+        height: 100%;
+        border: none;
+        text-indent: 10px;
+      }
+      i {
+        font-size: 18px;
+        margin-left: 10px;
+        color: #f63;
+      }
+      a {
+        position: absolute;
+        right: 10px;
+        color: #f63;
+        font-size: 14px;
+      }
+    }
+  }
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    button {
+      text-align: center;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+      height: 30px;
+      width: 100%;
+      margin-bottom: 10px;
+      border: 2px solid #f63;
+      line-height: 30px;
+      background-color: #f63;
+      border: none;
+      border-radius: 50px;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+}
