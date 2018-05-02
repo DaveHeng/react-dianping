@@ -2,7 +2,7 @@
 
 ---
 
-> 项目地址 <a href="http:www.baidu.com">百度</a>
+> 项目地址 <a href="https://github.com/DaveHeng/react-dianping">https://github.com/DaveHeng/react-dianping</a>
 
 > 技术栈:react,react-router,redux,webpack,es6,babel...
 
